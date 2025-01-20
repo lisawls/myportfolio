@@ -425,14 +425,6 @@ footer {
     .navbar.active {
         left: 0;
     }
-
-    .video-test{
-        width: 250px;
-        height: 250px;
-        object-fit: cover;
-        z-index: -1;
-        position: absolute;
-    }
     
     .about-content {
         flex-direction: column;
