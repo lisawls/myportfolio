@@ -227,12 +227,11 @@ body {
 }
 
 .about-content h2{
-    margin-top: 15px;
     color: var(--primarycolor);
 }
 
 .about-text {   
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     color: var(--primarycolor);
 }
 
@@ -420,7 +419,6 @@ footer {
     }
     
     .about-content {
-        margin-top: 10px;
         flex-direction: column;
         gap: 10px;
     }
