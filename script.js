@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
         /* typewriter script */
         setTimeout(() => {
             const typed = new Typed(typedElement, {
-                strings: ["Developer", "Programmer", "Designer", "Freelancer"],
+                strings: ["Developer", "Programmer", "Designer"],
                 typeSpeed: 35,
                 backSpeed: 35,
                 loop: true,
