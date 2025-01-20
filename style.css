@@ -420,6 +420,26 @@ footer {
     }
     
     .about-content {
+        margin-top: 10px;
         flex-direction: column;
+        gap: 10px;
     }
+
+    .about-content img{
+        width: 200px;
+        height: auto;
+        margin-top: 10px;
 }
+    .about-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+   .about-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+        line-height: 1.5; 
+    }
