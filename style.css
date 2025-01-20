@@ -223,14 +223,6 @@ body {
     border-top: 3px solid #bbb;
 }
 
-.video-test{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    z-index: -1;
-    position: absolute;
-}
-
 /* About Section */
 #about {
     display: flex;
@@ -432,6 +424,14 @@ footer {
     
     .navbar.active {
         left: 0;
+    }
+
+    .video-test{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        z-index: -1;
+        position: absolute;
     }
     
     .about-content {
