@@ -102,16 +102,17 @@ const backToTopBtn = document.getElementById('backToTop');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 300) {
         backToTopBtn.style.display = 'block';
+        backToTopBtn.style.opacity = '1';
     } else {
-        backToTopBtn.style.display = 'none';
+        backToTopBtn.style.opacity = '0';
+        setTimeout(() => {
+            if (window.scrollY <= 300) {
+                backToTopBtn.style.display = 'none';
+            }
+        }, 300); // Wait for the fade-out transition
     }
 });
 
 backToTopBtn.addEventListener('click', () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-
-window.scrollTo(0, 0);
